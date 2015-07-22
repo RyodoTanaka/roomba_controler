@@ -34,7 +34,7 @@ sudo chmod 777 /dev/ttyUSB0
 
 - roslaunch
 ```bash
-roslaunch roomba_controler roomba_controler.launch
+roslaunch roomba_controller roomba_controller.launch
 ```
 
 # Trouble Shooting
