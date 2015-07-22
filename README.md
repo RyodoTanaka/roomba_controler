@@ -1,4 +1,4 @@
-# Roomba 500 Series Controler
+# Roomba 500 Series Controller
 ![roomba](./.images/roomba.png)
 This repository provides following ROS packages...
 - [Roomba 500 series driver](http://github.com/Arkapravo/roomba_500_ROS_drivers)
@@ -30,7 +30,7 @@ rosmake serial_communication
 sudo chmod 777 /dev/ttyUSB0
 ```
 
-- Connect Joy Controler (PS3 or PS2 controler, you can change parameters. [details](http://github.com/RyodoTanaka/joy_controler)). 
+- Connect Joy Controler (PS3 or PS2 controller, you can change parameters. [details](http://github.com/RyodoTanaka/joy_controler)). 
 
 - roslaunch
 ```bash
