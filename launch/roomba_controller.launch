@@ -6,7 +6,7 @@
   </node>
 
   <!-- joy controler -->
-  <include file="$(find joy_controler)/launch/roomba_ps2.launch" />
+  <include file="$(find joy_controller)/launch/roomba_ps2.launch" />
 
 
 </launch>
