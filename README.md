@@ -25,12 +25,14 @@ rosmake serial_communication
 ```
 
 # Usage
-1. We need a permission to connect serial port. (default is /dev/ttyUSB0)
+- We need a permission to connect serial port. (default is /dev/ttyUSB0)
 ```bash
 sudo chmod 777 /dev/ttyUSB0
 ```
-2. Connect Joy Controler (PS3 or PS2 controler, you can change parameters. [details](http://github.com/RyodoTanaka/joy_controler)). 
-3. roslaunch
+
+- Connect Joy Controler (PS3 or PS2 controler, you can change parameters. [details](http://github.com/RyodoTanaka/joy_controler)). 
+
+- roslaunch
 ```bash
 roslaunch roomba_controler roomba_controler.launch
 ```
