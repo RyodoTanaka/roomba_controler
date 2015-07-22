@@ -1,0 +1,12 @@
+<launch>
+
+  <!-- roomba 500 series -->
+  <node pkg="roomba_500_series" type="roomba500_light_node" name="roomba_500_series" >
+    <param name="roomba/port" type="string" value="/dev/ttyUSB0" />
+  </node>
+
+  <!-- joy controler -->
+  <include file="$(find joy_controler)/launch/roomba_ps2.launch" />
+
+
+</launch>

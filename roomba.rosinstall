@@ -1,0 +1,8 @@
+- git:
+    local-name: joy_controler
+    uri: https://github.com/RyodoTanaka/joy_controler.git
+    version: master
+- git:
+    localpname: roomba_500_ROS_drivers
+    uri: https://github.com/Arkapravo/roomba_500_ROS_drivers.git
+    version: master
