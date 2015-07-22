@@ -10,7 +10,10 @@ Type following commands ...
 
 ```bash
 mkdir -p <catkin_ws>/src
-cd  <catkin_ws>
+cd <catkin_ws>/src
+catkin_init_workspace
+git clone http://github.com/RyodoTanaka/roomba_controller.git
+cd <catkin_ws>
 wstool init src
 wstool merge -t src https://raw.githubusercontent.com/RyodoTanaka/roomba_controler/master/roomba.rosinstall
 wstool update -t src
