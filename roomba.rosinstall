@@ -1,5 +1,5 @@
 - git:
-    local-name: joy_controler
+    local-name: joy_controller
     uri: https://github.com/RyodoTanaka/joy_controller.git
     version: master
 - git:
