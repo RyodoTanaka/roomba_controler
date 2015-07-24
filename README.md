@@ -25,7 +25,11 @@ source devel/setup.bash
 cd <catkin_ws>/src/roomba_500_ROS_drivers
 rosmake roomba_robot
 rosmake serial_communication
+sudo apt-get install ros-indigo-joy
 ```
+
+#####*Tips* : It is recomended to make shell script about above commands.
+
 
 # Usage
 - We need a permission to connect serial port. (default is /dev/ttyUSB0)
